@@ -15,11 +15,7 @@ function App(){
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About College="Kongu Engineering" clg1="Kongu Arts" clg2="Naturopathy"/>}/>
-<<<<<<< HEAD
           <Route path="/gallery" element={<Gallery/>}/>
-=======
-          <Route path="/g+allery" element={<Gallery/>}/>
->>>>>>> f160e5befb152c206d5910c57ad420c053507e84
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
         </BrowserRouter>

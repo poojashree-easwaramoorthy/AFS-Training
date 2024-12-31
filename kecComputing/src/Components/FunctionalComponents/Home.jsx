@@ -8,9 +8,15 @@ var Home = () =>{
     }
     return (
     <div>
+    <div>
         <h1 style={styling}>This is Home page</h1>
         <h2 style={styling}>Testing Styling</h2>
         <h2 className='boxModel'>Hello</h2>
+    </div>
+    <footer className="footer">
+        <p>© 2024 Fullstack Training. All rights reserved.</p>
+        <p>Contact: info@fullstacktraining.com</p>
+    </footer>
     </div>
     )
 }
