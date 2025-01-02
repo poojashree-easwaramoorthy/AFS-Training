@@ -7,6 +7,7 @@ import Gallery from "./Components/FunctionalComponents/Gallery";
 import UseEffect from "./Components/FunctionalComponents/UseEffect";
 import UseContext from "./Components/FunctionalComponents/UseContext";
 import UseRef from "./Components/FunctionalComponents/UseRef";
+import UseMemo from "./Components/FunctionalComponents/UseMemo";
 import Contact from "./Components/FunctionalComponents/Contact";
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
@@ -22,7 +23,9 @@ function App(){
           <Route path="/Useeffect" element={<UseEffect/>}/>
           <Route path="/useref" element={<UseRef/>}/>
           <Route path="/usecontext" element={<UseContext/>}/>
+          <Route path="/usememo" element={<UseMemo/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          
         </Routes>
         </BrowserRouter>
         </div>

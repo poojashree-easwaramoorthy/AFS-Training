@@ -30,7 +30,7 @@ var UseEffect = () => {
             <h1>Fetching data from Json Placeholder API</h1>
             <h2>Post are</h2>
             <ol>
-                {post.map((element) =>(<h3 key={element.Id}>{element.title}</h3> ))}
+                {post.map((element) =>(<h3 key={element.id}>{element.title}</h3> ))}
             </ol>
         </section>
     );

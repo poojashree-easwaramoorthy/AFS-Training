@@ -12,7 +12,9 @@ const Navbar = () => {
                     <li><Link to="/useeffect">UseEffect</Link></li>
                     <li><Link to="/usecontext">UseContext</Link></li>
                     <li><Link to="/useref">UseRef</Link></li>
+                    <li><Link to="/usememo">UseMemo</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
+                    
                     
                 </ul>
             </nav>
