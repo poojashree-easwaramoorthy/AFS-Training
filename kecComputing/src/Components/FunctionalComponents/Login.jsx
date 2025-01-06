@@ -9,7 +9,7 @@ function Login() {
   var navigate=useNavigate()
   var Login=async(e)=>{
     e.preventDefault()
-    var req = await axios.post("https://afs-training.onrender.com ",{
+    var req = await axios.post("https://afs-training.onrender.com/login",{
         email:email,
         password:password
   })

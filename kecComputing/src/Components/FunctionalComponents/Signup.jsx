@@ -9,7 +9,7 @@ function SignupForm() {
   var navigate=useNavigate()
 var signup=async(e)=>{
   e.preventDefault()
-  var req = await axios.post("https://afs-training.onrender.com",{
+  var req = await axios.post("https://afs-training.onrender.com/signup",{
     firstName:firstName,
     lastName:lastName,
     email:email,
