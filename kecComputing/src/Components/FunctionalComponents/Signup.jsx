@@ -15,6 +15,10 @@ var signup=async(e)=>{
     email:email,
     password:password
   })
+  setFirstName("");
+  setLastName("");
+  setEmail("");
+  setPassword("");
   console.log(req);
   navigate('/login')
 }

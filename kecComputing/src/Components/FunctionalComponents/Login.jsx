@@ -33,11 +33,11 @@ function Login() {
         <form onSubmit={Login}>
         <div>
           <label>Email:</label>
-          <input type="email"name="email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
+          <input type="email"name="email" value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="off" required/>
         </div>
         <div>
           <label>Password:</label>
-          <input type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)} required/>
+          <input type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)} autoComplete="off" required/>
         </div>
           <button type="submit">Login</button>
         </form>
